@@ -13,7 +13,7 @@ Exemplo:
 # Teste das operações
 Utilize os seguintes verbos e endpoints para as seguintes operações de CRUD:
 * POST - localhost:3001/users/create (Create)
-  ![image](https://github.com/IgorCavalcantiCianniPrado/CRUDWithNode/assets/86272097/a0e1b396-cfa2-437d-aeb5-600e5234c90b)
+  ![image](https://github.com/IgorCavalcantiCianniPrado/CRUDWithNode/assets/86272097/11230643-7797-4b53-a164-508a5ee6b5b6)
 
 * GET - localhost:3001/users (Read) - **Obtem todos os usuários registrados**
   ![image](https://github.com/IgorCavalcantiCianniPrado/CRUDWithNode/assets/86272097/0a4f8bbb-a8ce-438e-8d0d-1716eb55731d)
