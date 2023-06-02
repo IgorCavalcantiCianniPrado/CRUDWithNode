@@ -8,7 +8,7 @@ Apos clonar este repositório, execute o comando **docker-compose up** no diret�
 Utilize o endpoint **localhost:3001/users/auth** com o login **IgorPrado/271254ABC** para obter o token (gerado pelo mecanismo JWT) para autorização nas operações CRUD (este Token é necessário em todas as operações).  
 
 Exemplo:
-![image](https://github.com/IgorCavalcantiCianniPrado/CRUDWithNode/assets/86272097/33d16d74-fcfd-4c13-81b2-db0e70175f00)
+![image](https://github.com/IgorCavalcantiCianniPrado/CRUDWithNode/assets/86272097/2274585b-945e-497f-934f-6d267bff81cf)
 
 # Teste das operações
 Utilize os seguintes verbos e endpoints para as seguintes operações de CRUD:
