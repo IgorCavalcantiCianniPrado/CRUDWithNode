@@ -10,6 +10,8 @@ Utilize o endpoint **localhost:3001/users/auth** com o login **IgorPrado/271254A
 Exemplo:
 ![image](https://github.com/IgorCavalcantiCianniPrado/CRUDWithNode/assets/86272097/2274585b-945e-497f-934f-6d267bff81cf)
 
+Obs.: Deve-se utilizar este token no header de cada requisição do CRUD, em uma propriedade chamada **auth**.
+
 # Teste das operações
 Utilize os seguintes verbos e endpoints para as seguintes operações de CRUD:
 * POST - localhost:3001/users/create (Create)
