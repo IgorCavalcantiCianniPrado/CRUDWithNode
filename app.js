@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
-const config = require('./Config/config');
+const config = require('./config/config');
 
 const url = config.connString;
 
@@ -25,7 +25,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
 //Routes
-const usersRoute = require('./Routes/users');
+const usersRoute = require('./routes/users');
 app.use('/users', usersRoute);
 
 app.listen(3000);

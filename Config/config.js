@@ -4,7 +4,7 @@ const config = () => {
     switch (env){
         case 'dev':
             return {
-                connString: 'mongodb://localhost:27017',
+                connString: 'mongodb://mongo',
                 auth: {
                     user: 'IgorPrado',
                     password: '$2b$10$bX1UDo7knDzWA7CfIDoqWe4RitAv3FtCrHCrufQc.9GOLoiixVaqC' //271254ABC
@@ -13,7 +13,7 @@ const config = () => {
 
         case 'hml':
             return {
-                connString: 'mongodb://localhost:27017',
+                connString: 'mongodb://mongo',
                 auth: {
                     user: 'IgorPrado',
                     password: '$2b$10$bX1UDo7knDzWA7CfIDoqWe4RitAv3FtCrHCrufQc.9GOLoiixVaqC' //271254ABC
@@ -22,7 +22,7 @@ const config = () => {
 
         case 'prd':
             return {
-                connString: 'mongodb://localhost:27017',
+                connString: 'mongodb://mongo',
                 auth: {
                     user: 'IgorPrado',
                     password: '$2b$10$bX1UDo7knDzWA7CfIDoqWe4RitAv3FtCrHCrufQc.9GOLoiixVaqC' //271254ABC

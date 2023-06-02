@@ -3,8 +3,8 @@ const router = express.Router();
 const Users = require('../model/user');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
-const authMiddleware = require('../Middleware/auth');
-const config = require('../Config/config');
+const authMiddleware = require('../middleware/auth');
+const config = require('../config/config');
 
 const createUserToken = (userId) => {
     return jwt.sign({id: userId}, 'batatafrita2019', {expiresIn: '7d'});
@@ -121,8 +121,6 @@ router.delete('/:id', authMiddleware, async (req, res) => {
         const _id = req.params.id;
 
         const result = await Users.deleteOne({_id});
-
-        console.log(result.deletedCount);
 
         if(result.deletedCount === 0){
             return res.status(400).send({error: 'Não foi encontrado resgitro com o id informado!'});
