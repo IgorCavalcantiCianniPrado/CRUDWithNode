@@ -25,7 +25,7 @@ Utilize os seguintes verbos e endpoints para as seguintes operações de CRUD:
   ![image](https://github.com/IgorCavalcantiCianniPrado/CRUDWithNode/assets/86272097/117d1ea3-a0a8-4c5e-a85d-7faa901aeba0)
 
 * DELETE - localhost:3001/users/<id_registro_no_mongodb> (Delete)
-  ![image](https://github.com/IgorCavalcantiCianniPrado/CRUDWithNode/assets/86272097/fa53c844-ef7b-429a-bdcb-98e0d28f1801)
+  ![image](https://github.com/IgorCavalcantiCianniPrado/CRUDWithNode/assets/86272097/5ba5b80b-1863-43d1-89e4-dcb7d963a1de)
 
 
 
