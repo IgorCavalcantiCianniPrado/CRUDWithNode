@@ -19,7 +19,7 @@ Utilize os seguintes verbos e endpoints para as seguintes operações de CRUD:
   ![image](https://github.com/IgorCavalcantiCianniPrado/CRUDWithNode/assets/86272097/a8607eab-be11-4702-85e8-3c307a3f14a4)
 
 * GET - localhost:3001/users/<id_registro_no_mongodb> (Read) - **Obtem um usuário específico**
-  ![image](https://github.com/IgorCavalcantiCianniPrado/CRUDWithNode/assets/86272097/416f453c-adc0-4766-a80e-2c9c486c089c)
+  ![image](https://github.com/IgorCavalcantiCianniPrado/CRUDWithNode/assets/86272097/e1ddb5b1-436b-4d00-bf28-b0802bb13a4b)
   
 * PUT - localhost:3001/users/<id_registro_no_mongodb> (Update)
   ![image](https://github.com/IgorCavalcantiCianniPrado/CRUDWithNode/assets/86272097/aa74d33e-6c33-42eb-809e-1e32776c248f)
