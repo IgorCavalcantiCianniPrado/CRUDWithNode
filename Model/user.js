@@ -9,12 +9,7 @@ const UserSchema = new Schema({
 });
 
 UserSchema.pre('save', function(next){
-    // console.log('Passou pelo UserSchema pré-save!');
-
     let user = this;
-
-    console.log(this);
-    console.log(`O password foi alterado? ${user.isModified('password')}`);
 
     if(!user.isModified('password'))
         return next();
