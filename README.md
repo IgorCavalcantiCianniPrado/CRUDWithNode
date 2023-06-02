@@ -22,7 +22,7 @@ Utilize os seguintes verbos e endpoints para as seguintes operações de CRUD:
   ![image](https://github.com/IgorCavalcantiCianniPrado/CRUDWithNode/assets/86272097/e1ddb5b1-436b-4d00-bf28-b0802bb13a4b)
   
 * PUT - localhost:3001/users/<id_registro_no_mongodb> (Update)
-  ![image](https://github.com/IgorCavalcantiCianniPrado/CRUDWithNode/assets/86272097/aa74d33e-6c33-42eb-809e-1e32776c248f)
+  ![image](https://github.com/IgorCavalcantiCianniPrado/CRUDWithNode/assets/86272097/117d1ea3-a0a8-4c5e-a85d-7faa901aeba0)
 
 * DELETE - localhost:3001/users/<id_registro_no_mongodb> (Delete)
   ![image](https://github.com/IgorCavalcantiCianniPrado/CRUDWithNode/assets/86272097/fa53c844-ef7b-429a-bdcb-98e0d28f1801)
