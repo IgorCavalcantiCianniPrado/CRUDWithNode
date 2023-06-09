@@ -1,6 +1,9 @@
 # CRUDWithNode
 CRUD simples de usuários feito com Node.js e MongoDB.
 
+# Arquitetura Técnica
+![image](https://github.com/IgorCavalcantiCianniPrado/CRUDWithNode/assets/86272097/09012aa7-9523-45ac-b796-f915d6819695)
+
 # Execução da aplicação
 Apos clonar este repositório, execute o comando **docker-compose up** no diretório do arquivo **docker-compose.yml**, para que a API e a base de dados MongoDB tenham suas instâncias criadas, de maneira que a API esteja conectada ao Mongo. 
 
