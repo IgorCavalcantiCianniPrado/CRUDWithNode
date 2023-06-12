@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: api-node-deployment
+  namespace: crud-with-node
+  labels:
+    app: api-node-deployment-label
+spec:
+  replicas: 1
+  template:
+    metadata:
+      name: api-node-pod
+      labels:
+        app: api-node-pod-label
+    spec:
+      containers:
+        - name: api-node-container
+          image: igorcavalcanticianniprado/crud-with-node:v1
+  selector:
+    matchLabels:
+      app: api-node-pod-label
+
