@@ -133,6 +133,11 @@ router.delete('/:id', authMiddleware, async (req, res) => {
     }
 });
 
+//Novo endpoint teste
+// router.post('/xablau', (req, res) => {
+//     res.send({message: 'Esta é uma mensagem para testes com o Keel 22222222222222222222222!!!'});
+// });
+
 router.post('/auth', async (req, res) => {
     if(!minimalAuthValidation(req.body))
         return res.status(400).send({error: 'Dados insuficientes para a autenticação!'});

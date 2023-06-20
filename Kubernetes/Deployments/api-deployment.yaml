@@ -2,9 +2,11 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: api-node-deployment
-  namespace: crud-with-node
+  # namespace: crud-with-node
   labels:
     app: api-node-deployment-label
+  annotations:
+    keel.sh/policy: force
 spec:
   replicas: 1
   template:
@@ -15,7 +17,8 @@ spec:
     spec:
       containers:
         - name: api-node-container
-          image: igorcavalcanticianniprado/crud-with-node:v1
+          image: igorcavalcanticianniprado/crud-with-node:latest
+          imagePullPolicy: Always # this is required to force pull image
   selector:
     matchLabels:
       app: api-node-pod-label

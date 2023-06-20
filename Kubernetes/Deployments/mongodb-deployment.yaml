@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: mongodb-deployment
-  namespace: crud-with-node
+  # namespace: crud-with-node
   labels:
     app: mongodb-deployment-label
 spec:
